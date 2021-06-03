@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+  data-testid="act-select"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item"
+  >
+    <div
+      className="MuiInputBase-root MuiInput-root MuiInput-underline"
+      data-testid="select"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      <select
+        className="MuiNativeSelect-root MuiNativeSelect-select MuiInputBase-input MuiInput-input"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        value=""
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          placeholder text
+        </option>
+        <option
+          value="option1"
+        >
+          option1
+        </option>
+        <option
+          value="option2"
+        >
+          option2
+        </option>
+        <option
+          value="option3"
+        >
+          option3
+        </option>
+      </select>
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiNativeSelect-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
