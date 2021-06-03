@@ -16,14 +16,14 @@ Configure `proxy` in `frontend/package.json` to point to the API, defaulted to `
 
 # Run
 ##### run API
-<br />
+
 ```bash
 export FLASK_APP=app
 pip install -r Api/requirements.txt
 cd Api && python -m flask run
 ```
 ##### run frontend server
-<br />
+
 ```bash
 cd frontend
 npm install
@@ -31,9 +31,9 @@ npm start
 ```
 # Test
 ##### run frontend unit & snapshot tests
-<br />
-```bash
+
+```
 cd frontend
-npm install
+npm install --save-dev
 npm test
 ```
