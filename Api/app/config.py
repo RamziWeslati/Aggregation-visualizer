@@ -6,12 +6,8 @@ class MissingConfig(Exception):
     pass
 
 agg_column = os.environ.get('AGG_COLUMN', None)
-db_path = os.environ.get('DB_PATH', "C:\\Users\\Ramzi Oueslati\\Desktop\\aggregation_visualizor\\Api\\data\\us-census.db")
+db_path = os.environ.get('DB_PATH', None)
 table_name = os.environ.get('TABLE_NAME', None)
-
-class MissingConfig(Exception):
-    """custom exception to handle missing required config"""
-    pass
 
 # check required config
 if db_path is None:
