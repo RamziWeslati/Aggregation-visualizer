@@ -10,7 +10,7 @@ export TABLE_NAME=<SQL-table-name> # defaulted to `census_learn_sql`
 export AGG_COLUMN=<column-to-agg-by> # defualted to `age`
 ```
 
-##### Configure API
+##### Configure frontend server
 Setup proxy:
 Configure `proxy` in `frontend/package.json` to point to the API, defaulted to `localhost:5000/api`
 
